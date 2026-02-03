@@ -1,0 +1,13 @@
+# nanobot serverless deployment requirements for Google Cloud Run/Functions
+# Note: nanobot is installed from GitHub in Dockerfile, not from this file
+
+# Core dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+httpx>=0.25.0
+
+# Storage dependencies
+google-cloud-storage>=2.10.0
+
+# Additional dependencies for serverless
+python-dotenv>=1.0.0

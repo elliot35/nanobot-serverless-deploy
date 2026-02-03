@@ -1,0 +1,11 @@
+# Root requirements.txt for local development
+# Platform-specific requirements are in gcp/requirements.txt
+
+# Core dependencies
+nanobot-ai>=0.1.0
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pymongo>=4.6.0
+
+# Development dependencies
+python-dotenv>=1.0.0
