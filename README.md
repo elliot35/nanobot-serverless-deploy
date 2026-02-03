@@ -71,7 +71,7 @@ Before deploying, you'll need:
 **1. Clone repository**
 
 ```bash
-git clone <YOUR_REPO_URL>
+git clone elliot35/nanobot-serverless-deploy
 cd serverlessbot
 ```
 
